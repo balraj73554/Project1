@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(30, 63, 117);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    color:white;
+    font-size: 3.5em;
+    margin: 0 0 1em 0;
+    background-color: black;
+    display: block;
+    width: 100vw;
+    padding: .5em 0 .3em 0;
+    text-align: center;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.links-design{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    border: 2px solid rgb(138, 84, 84);
+    padding: 1em;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    width: 250px;
+    text-align: center;
+}
