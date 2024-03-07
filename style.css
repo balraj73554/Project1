@@ -34,3 +34,8 @@
     width: 250px;
     text-align: center;
 }
+.links-design:hover,.links-design:focus{
+    background-color: rgb(138, 84, 84);
+    transition:.15s;
+    color:black;
+}
